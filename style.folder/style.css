@@ -1,0 +1,158 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:wght@500&family=Work+Sans&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* -----------header-style----------- */
+main{
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+}
+.continer{
+    width: 900px; 
+    margin-top: 86px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 50px; */
+    margin-bottom: 140px;
+}
+.header-info{
+    display:flex;
+    align-items: center;
+    gap: 34px;
+    
+}
+/*----------- banner-style----------- */
+.banner{
+    width: 900px;
+    height: 270px;
+    margin-bottom: 20px;
+    margin: 0 50px;
+    display:flex;
+   gap: 140px;
+}
+.banner-title{
+    font-weight: 700;
+    width: 400px;
+
+}
+.font-img img{
+    width: 440px;
+    height: 414px;
+}
+.button{
+    background-color:  #E02C6D;
+    border:20px;
+    padding: 5px;
+    width:150px;
+    margin-top: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.banner-img{
+    width:582px;
+    height: 414;
+    
+}
+.banner-img img{
+    width: 300px;
+    height:300px;
+}
+/* ------logo---------- */
+.logo-item{
+    /* padding: 40px; */
+   margin-top: 150px;
+    display:flex;
+    align-items: center; 
+   
+}
+.logo-item img{
+   
+   padding: 20px;
+   margin:5px;
+   align-items: center;
+
+}
+/*---------------- collecation----------- */
+.popular{
+   display: grid;
+   grid-template-columns: repeat(3, 3fr);
+   grid-column-gap:20px;
+   width: 300px;
+   margin-bottom: 100px;
+
+}
+
+.collection-driception{
+    font-size: 12px;
+    
+}
+.title{
+    color: #787885;
+    font-size: 14px;
+    
+}
+.fa-star.filled{
+    color: gold;
+}
+.fa-star.empty{
+    color:gray;
+}
+.fa-star{
+    font-size: 12px;
+}
+.collection-info{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.collection-banner img{
+    width: 300px;
+    height: 200px;
+    
+}
+/*---------------- place-------------- */
+.places{
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+    width: 900px;
+    margin-bottom: 100px;
+}
+.head-title{
+    font-size: 24px;
+}
+button{
+    background-color: #E02C6D;
+    color: aliceblue;
+    width: 155px;
+    height: 44px;
+}
+/*----------------- footer------------ */
+.footer{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color:#0A0826;
+}
+.footer-title{
+    width: 262px;
+    height:200px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+
+
+
+
+
+
